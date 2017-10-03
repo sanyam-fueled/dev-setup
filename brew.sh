@@ -136,6 +136,9 @@ brew link libxslt --force
 brew install heroku-toolbelt
 heroku update
 
+# Install GDAL for Postgres
+brew install gdal --HEAD
+
 # Install Cask
 brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
